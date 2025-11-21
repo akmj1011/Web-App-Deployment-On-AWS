@@ -10,14 +10,14 @@ The goal of this Project is to deploy a fully scalable and highly available web 
 2. [Architecture Diagram](#architecture-diagram)
 3. [Step-by-Step Implementation](#step-by-step-implementation)
 
-   * [3.1 Create Key Pair](#32-create-key-pair)
-   * [3.2 Create Security Group](#33-create-security-group)
-   * [3.3 Create Launch Template](#34-create-launch-template)
-   * [3.4 Create Auto Scaling Group](#35-create-auto-scaling-group)
-   * [3.5 Create Target Group](#36-create-target-group)
-   * [3.6 Create Application Load Balancer](#37-create-application-load-balancer)
-   * [3.7 Attach ASG to Load Balancer](#38-attach-asg-to-load-balancer)
-   * [3.8 Testing the Setup](#39-testing-the-setup)
+   * [3.1 Create Key Pair](#31-create-key-pair)
+   * [3.2 Create Security Group](#32-create-security-group)
+   * [3.3 Create Launch Template](#33-create-launch-template)
+   * [3.4 Create Auto Scaling Group](#34-create-auto-scaling-group)
+   * [3.5 Create Target Group](#35-create-target-group)
+   * [3.6 Create Application Load Balancer](#36-create-application-load-balancer)
+   * [3.7 Attach ASG to Load Balancer](#37-attach-asg-to-load-balancer)
+   * [3.8 Testing the Setup](#38-testing-the-setup)
 4. [Conclusion](#conclusion)
 
 ---
