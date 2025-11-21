@@ -42,7 +42,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 ## Architecture Diagram
 
-![Architecture Diagram](path/to/architecture-diagram.png)
+![Architecture Diagram](/C:/Users/anujk/Desktop/aws/mail.png)
 
 ---
 
