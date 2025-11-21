@@ -58,7 +58,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1077" alt="Security Group" src="https://github.com/user-attachments/assets/158fdb7b-30f2-42f2-8f8c-1f7000757f61" />
 
-
+<br><br>
 *Configured security group to allow HTTP (port 80) and SSH (port 22).*
 ##
 
@@ -68,7 +68,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1078" alt="Template 2" src="https://github.com/user-attachments/assets/70cb46c8-894a-4217-a357-f9953be9da76" />
 
-
+<br><br>
 *Launch template includes AMI, instance type, security group, and user data for Apache installation.*
 ##
 
@@ -78,7 +78,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1078" alt="Auto Scaling 2" src="https://github.com/user-attachments/assets/c6d7ef17-e18d-432a-9da8-a03e55a07a69" />
 
-
+<br><br>
 *Set desired, minimum, and maximum instance settings.*
 ##
 
@@ -86,7 +86,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1078" alt="Target Group 1" src="https://github.com/user-attachments/assets/cd0a33e2-2d13-4260-be13-d838cef2a24d" />
 
-
+<br><br>
 *Load balancer routes traffic to this target group.*
 ##
 
@@ -94,7 +94,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1078" alt="Load Balancer" src="https://github.com/user-attachments/assets/3f4e085b-114c-4ed8-b29e-70609c1d6400" />
 
-
+<br><br>
 *Configured with listener and multiple Availability Zones.*
 ##
 
@@ -102,7 +102,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1078" alt="Auto Scaling 3 attached load balancer" src="https://github.com/user-attachments/assets/e14ed42d-d217-4e22-94ec-d324c247cf60" />
 
-
+<br><br>
 *Auto Scaling Group attached to target group for automatic instance registration.*
 ##
 
@@ -112,7 +112,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
   <img width="1918" height="1078" alt="Main Output " src="https://github.com/user-attachments/assets/5bb2a6e8-39a1-4bbd-8ac5-80e893c59220" />
   
-  
+  <br><br>
   *Webpage loads successfully from ALB DNS, showing instance ID.*
 ##
 
@@ -122,7 +122,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
   <img width="1918" height="1078" alt="automatically started new instances" src="https://github.com/user-attachments/assets/50adac00-2334-4472-82f5-12d64cff6c6b" />
   
-  
+  <br><br>
   *Terminated instances are automatically replaced by ASG.*
 ##
 
@@ -130,7 +130,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
   <img width="1918" height="1078" alt="Main Cmd Output1" src="https://github.com/user-attachments/assets/7d7f54f8-a035-41ef-823b-a9215ea1fa8e" />
   
-  
+  <br><br>
   *CPU stress test run for 300s. Existing instances handled load; no new instances launched.*
 
 ---
@@ -139,7 +139,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1078" alt="Main Output Cmd" src="https://github.com/user-attachments/assets/798be7a6-d1da-4148-8288-d1874b75f3c0" />
 
-
+<br><br>
 Successfully deployed a basic website on AWS displaying a welcome message with instance region and time. Using **Launch Template**, **Auto Scaling Group**, **Target Group**, and **Application Load Balancer**, the webpage runs reliably across multiple instances with automatic traffic distribution and high availability.
 
 ---
