@@ -131,7 +131,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
   <img width="1918" height="1078" alt="Main Cmd Output1" src="https://github.com/user-attachments/assets/7d7f54f8-a035-41ef-823b-a9215ea1fa8e" />
   
   
-  *CPU stress test run for 300s. Existing instances handled load; no new instances launched.*
+*  *CPU stress test run for 300s. Existing instances handled load; no new instances launched.*
 
 ---
 
