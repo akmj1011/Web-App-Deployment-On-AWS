@@ -121,8 +121,8 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 ## Conclusion
 
+<img width="1918" height="1078" alt="Main Output Cmd" src="https://github.com/user-attachments/assets/798be7a6-d1da-4148-8288-d1874b75f3c0" />
+
 Successfully deployed a basic website on AWS displaying a welcome message with instance region and time. Using **Launch Template**, **Auto Scaling Group**, **Target Group**, and **Application Load Balancer**, the webpage runs reliably across multiple instances with automatic traffic distribution and high availability.
-
-
 
 ---
