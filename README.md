@@ -43,7 +43,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 ## Architecture Diagram
 
-![Architecture Diagram](mail.png)
+<img width="2414" height="967" alt="AWS Project Architecture 3" src="https://github.com/user-attachments/assets/29cd5707-8904-4e43-8ae7-b870b6d2da63" />
 
 ---
 
