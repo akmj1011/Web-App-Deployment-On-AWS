@@ -10,15 +10,14 @@ The goal of this Project is to deploy a fully scalable and highly available web 
 2. [Architecture Diagram](#architecture-diagram)
 3. [Step-by-Step Implementation](#step-by-step-implementation)
 
-   * [3.1 Create AWS Free Tier Account](#31-create-aws-free-tier-account)
-   * [3.2 Create Key Pair](#32-create-key-pair)
-   * [3.3 Create Security Group](#33-create-security-group)
-   * [3.4 Create Launch Template](#34-create-launch-template)
-   * [3.5 Create Auto Scaling Group](#35-create-auto-scaling-group)
-   * [3.6 Create Target Group](#36-create-target-group)
-   * [3.7 Create Application Load Balancer](#37-create-application-load-balancer)
-   * [3.8 Attach ASG to Load Balancer](#38-attach-asg-to-load-balancer)
-   * [3.9 Testing the Setup](#39-testing-the-setup)
+   * [3.1 Create Key Pair](#32-create-key-pair)
+   * [3.2 Create Security Group](#33-create-security-group)
+   * [3.3 Create Launch Template](#34-create-launch-template)
+   * [3.4 Create Auto Scaling Group](#35-create-auto-scaling-group)
+   * [3.5 Create Target Group](#36-create-target-group)
+   * [3.6 Create Application Load Balancer](#37-create-application-load-balancer)
+   * [3.7 Attach ASG to Load Balancer](#38-attach-asg-to-load-balancer)
+   * [3.8 Testing the Setup](#39-testing-the-setup)
 4. [Conclusion](#conclusion)
 
 ---
@@ -49,19 +48,19 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 ## Step-by-Step Implementation
 
-### 3.2 Create Key Pair
+### 3.1 Create Key Pair
 
 <img width="1918" height="1078" alt="Key Pair" src="https://github.com/user-attachments/assets/c3f77621-2f79-4551-a812-90b297a4d05a" />
 
 *Created an SSH key pair for secure EC2 instance access.*
 
-### 3.3 Create Security Group
+### 3.2 Create Security Group
 
 <img width="1918" height="1077" alt="Security Group" src="https://github.com/user-attachments/assets/158fdb7b-30f2-42f2-8f8c-1f7000757f61" />
 
 *Configured security group to allow HTTP (port 80) and SSH (port 22).*
 
-### 3.4 Create Launch Template
+### 3.3 Create Launch Template
 
 <img width="1918" height="1078" alt="Template 1" src="https://github.com/user-attachments/assets/7ceed709-5258-4eab-aa97-83dde21abc56" />
 
@@ -69,7 +68,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 *Launch template includes AMI, instance type, security group, and user data for Apache installation.*
 
-### 3.5 Create Auto Scaling Group
+### 3.4 Create Auto Scaling Group
 
 <img width="1918" height="1078" alt="Auto Scaling 1" src="https://github.com/user-attachments/assets/b9af5c7d-464d-4650-9885-46e7f382546e" />
 
@@ -77,25 +76,25 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 *Set desired, minimum, and maximum instance settings.*
 
-### 3.6 Create Target Group
+### 3.5 Create Target Group
 
 <img width="1918" height="1078" alt="Target Group 1" src="https://github.com/user-attachments/assets/cd0a33e2-2d13-4260-be13-d838cef2a24d" />
 
 *Load balancer routes traffic to this target group.*
 
-### 3.7 Create Application Load Balancer
+### 3.6 Create Application Load Balancer
 
 <img width="1918" height="1078" alt="Load Balancer" src="https://github.com/user-attachments/assets/3f4e085b-114c-4ed8-b29e-70609c1d6400" />
 
 *Configured with listener and multiple Availability Zones.*
 
-### 3.8 Attach ASG to Load Balancer
+### 3.7 Attach ASG to Load Balancer
 
 <img width="1918" height="1078" alt="Auto Scaling 3 attached load balancer" src="https://github.com/user-attachments/assets/e14ed42d-d217-4e22-94ec-d324c247cf60" />
 
 *Auto Scaling Group attached to target group for automatic instance registration.*
 
-### 3.9 Testing the Setup
+### 3.8 Testing the Setup
 
 * **Test 1: Accessing via ALB**
 
