@@ -52,7 +52,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 ##
 *Created an SSH key pair for secure EC2 instance access.*
-
+##
 ### 3.2 Create Security Group
 
 <img width="1918" height="1077" alt="Security Group" src="https://github.com/user-attachments/assets/158fdb7b-30f2-42f2-8f8c-1f7000757f61" />
