@@ -49,58 +49,72 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 ## Step-by-Step Implementation
 
-### 3.1 Create AWS Free Tier Account
-
-![AWS Free Tier Account](aws-free-tier-screenshot.png)
-*Screenshot shows the AWS Console after creating and activating the Free Tier account.*
-
 ### 3.2 Create Key Pair
 
-![Key Pair](key-pair-screenshot.png)
+<img width="1918" height="1078" alt="Key Pair" src="https://github.com/user-attachments/assets/c3f77621-2f79-4551-a812-90b297a4d05a" />
+
 *Created an SSH key pair for secure EC2 instance access.*
 
 ### 3.3 Create Security Group
 
-![Security Group](security-group-screenshot.png)
+<img width="1918" height="1077" alt="Security Group" src="https://github.com/user-attachments/assets/158fdb7b-30f2-42f2-8f8c-1f7000757f61" />
+
 *Configured security group to allow HTTP (port 80) and SSH (port 22).*
 
 ### 3.4 Create Launch Template
 
-![Launch Template](launch-template-screenshot.png)
+<img width="1918" height="1078" alt="Template 1" src="https://github.com/user-attachments/assets/7ceed709-5258-4eab-aa97-83dde21abc56" />
+
+<img width="1918" height="1078" alt="Template 2" src="https://github.com/user-attachments/assets/70cb46c8-894a-4217-a357-f9953be9da76" />
+
 *Launch template includes AMI, instance type, security group, and user data for Apache installation.*
 
 ### 3.5 Create Auto Scaling Group
 
-![Auto Scaling Group](asg-screenshot.png)
+<img width="1918" height="1078" alt="Auto Scaling 1" src="https://github.com/user-attachments/assets/b9af5c7d-464d-4650-9885-46e7f382546e" />
+
+<img width="1918" height="1078" alt="Auto Scaling 2" src="https://github.com/user-attachments/assets/c6d7ef17-e18d-432a-9da8-a03e55a07a69" />
+
 *Set desired, minimum, and maximum instance settings.*
 
 ### 3.6 Create Target Group
 
-![Target Group](target-group-screenshot.png)
+<img width="1918" height="1078" alt="Target Group 1" src="https://github.com/user-attachments/assets/cd0a33e2-2d13-4260-be13-d838cef2a24d" />
+
 *Load balancer routes traffic to this target group.*
 
 ### 3.7 Create Application Load Balancer
 
-![Application Load Balancer](alb-screenshot.png)
+<img width="1918" height="1078" alt="Load Balancer" src="https://github.com/user-attachments/assets/3f4e085b-114c-4ed8-b29e-70609c1d6400" />
+
 *Configured with listener and multiple Availability Zones.*
 
 ### 3.8 Attach ASG to Load Balancer
 
-![Attach ASG](asg-to-alb-screenshot.png)
+<img width="1918" height="1078" alt="Auto Scaling 3 attached load balancer" src="https://github.com/user-attachments/assets/e14ed42d-d217-4e22-94ec-d324c247cf60" />
+
 *Auto Scaling Group attached to target group for automatic instance registration.*
 
 ### 3.9 Testing the Setup
 
 * **Test 1: Accessing via ALB**
-  ![ALB Test](alb-test-screenshot.png)
+
+  <img width="1918" height="1078" alt="Main Output " src="https://github.com/user-attachments/assets/5bb2a6e8-39a1-4bbd-8ac5-80e893c59220" />
+
   *Webpage loads successfully from ALB DNS, showing instance ID.*
 
 * **Test 2: Auto-Healing (Instance Replacement)**
-  ![Auto-Healing Test](auto-healing-screenshot.png)
+
+  <img width="1918" height="1078" alt="testing of auto sync" src="https://github.com/user-attachments/assets/617a69c2-13bf-4747-b16d-ee0d42096d3f" />
+
+  <img width="1918" height="1078" alt="automatically started new instances" src="https://github.com/user-attachments/assets/50adac00-2334-4472-82f5-12d64cff6c6b" />
+  
   *Terminated instances are automatically replaced by ASG.*
 
 * **Test 3: Auto Scaling via CPU Load**
-  ![CPU Load Test](cpu-load-test-screenshot.png)
+
+  <img width="1918" height="1078" alt="Main Cmd Output1" src="https://github.com/user-attachments/assets/7d7f54f8-a035-41ef-823b-a9215ea1fa8e" />
+
   *CPU stress test run for 300s. Existing instances handled load; no new instances launched.*
 
 ---
@@ -108,5 +122,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 ## Conclusion
 
 Successfully deployed a basic website on AWS displaying a welcome message with instance region and time. Using **Launch Template**, **Auto Scaling Group**, **Target Group**, and **Application Load Balancer**, the webpage runs reliably across multiple instances with automatic traffic distribution and high availability.
+
+
 
 ---
