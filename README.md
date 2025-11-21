@@ -60,6 +60,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 
 *Configured security group to allow HTTP (port 80) and SSH (port 22).*
+##
 
 ### 3.3 Create Launch Template
 
@@ -69,6 +70,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 
 *Launch template includes AMI, instance type, security group, and user data for Apache installation.*
+##
 
 ### 3.4 Create Auto Scaling Group
 
@@ -78,6 +80,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 
 *Set desired, minimum, and maximum instance settings.*
+##
 
 ### 3.5 Create Target Group
 
@@ -85,6 +88,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 
 *Load balancer routes traffic to this target group.*
+##
 
 ### 3.6 Create Application Load Balancer
 
@@ -92,6 +96,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 
 *Configured with listener and multiple Availability Zones.*
+##
 
 ### 3.7 Attach ASG to Load Balancer
 
@@ -99,6 +104,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 
 *Auto Scaling Group attached to target group for automatic instance registration.*
+##
 
 ### 3.8 Testing the Setup
 
@@ -108,6 +114,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
   
   
   *Webpage loads successfully from ALB DNS, showing instance ID.*
+##
 
 * **Test 2: Auto-Healing (Instance Replacement)**
 
@@ -117,6 +124,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
   
   
   *Terminated instances are automatically replaced by ASG.*
+##
 
 * **Test 3: Auto Scaling via CPU Load**
 
