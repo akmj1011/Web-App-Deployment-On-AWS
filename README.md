@@ -66,6 +66,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1078" alt="Template 2" src="https://github.com/user-attachments/assets/70cb46c8-894a-4217-a357-f9953be9da76" />
 <br><br>
+
 *Launch template includes AMI, instance type, security group, and user data for Apache installation.*
 
 ##
@@ -76,6 +77,7 @@ This project demonstrates practical skills in AWS cloud architecture, automation
 
 <img width="1918" height="1078" alt="Auto Scaling 2" src="https://github.com/user-attachments/assets/c6d7ef17-e18d-432a-9da8-a03e55a07a69" />
 <br><br>
+
 *Set desired, minimum, and maximum instance settings.*
 
 ##
